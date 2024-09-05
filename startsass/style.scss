@@ -1,6 +1,44 @@
-$primary-color: #343434;
+$primary-color: #ffffff;
+$background: #f5f6fb
+$font-stack: Helvetica, sans-serif;
 
-p {
-  font-color: $primary-color;
-  font-size:20px;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: $primary-color;
+  color: ;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.sidebar a {
+  color: $primary-color;
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: $background;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: $primary-color;
+}
+
+.header {
+  background-color: #333;
+  color: $primary-color;
+  padding: 10px;
+  text-align: center;
 }

@@ -1,5 +1,40 @@
-p {
-  color: #343434;
-  font-size: 20px; }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+}
 
-/*# sourceMappingURL=style.css.map */
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: #575757;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
